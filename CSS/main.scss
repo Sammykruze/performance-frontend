@@ -1,0 +1,194 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+  
+.nav-container{
+    background: #6700EE;
+
+    a {
+        color: white;
+
+    }
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo{
+        color: #00F7FF;
+        font-weight: bold;
+
+    }
+    ul{
+        display: flex;
+       a{
+           display: block;
+           padding: 0 1em,
+       } 
+    }
+}
+.social-header{
+    display: none;
+}
+
+.crafted{
+    background-color: #6E00FF;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+.paragraph{
+    display: flex;
+    margin-left: 110px;
+    width: 200px;
+    font-weight: bold;
+    color: #FF64CB;
+
+}
+section{
+    padding: 4em 2em;
+    text-align: center;
+
+}
+.featured{
+    position: relative;
+
+}
+.featured::before{
+       content: "";
+       position: absolute;
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       margin-top: 20px;
+       background:#E5D5FA ;
+       top: 0;
+       left: 0;
+       z-index: -1;
+
+}
+.project{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#6E00FF ;
+    letter-spacing: .2em;
+    font-size: .95em;
+
+}
+.featured-title{
+color: black;
+font-weight: bold;
+font-size: 1.3em;
+margin-top: -.4em;
+display: block;
+
+}
+
+.featured-desc{
+    color:#2B2B2B;
+    margin-top: .9em;
+    line-height: 1.3em;
+    font-weight: 500;
+
+}
+.skills{
+    background-color: #FEC4CB;
+
+}
+.skills-container ul li{
+    background: white;
+ padding:2em;
+ border-radius: 2em;
+ margin-bottom: 1em;
+ .image-one{
+     height: 100px;
+     display: grid;
+    place-content: center;
+     
+    &.one{
+        width:50px ;
+    }
+     &.two{
+        width:50px ;
+        }
+     &.thre{
+        width:50px ;
+     }
+ }
+}
+.skill-title{
+    font-weight: bold;
+}
+
+.featured-desc{
+    margin-bottom: 2em;
+}
+
+.portfolio{
+    background: #98a5a5;
+}
+.portfolio-container a img{
+    border-radius: 1em;
+    margin-bottom: 23m;
+}
+
+.subtitle{
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+.bright{
+    background-color: #98a5a5;
+    width:100%;
+    height: 20px;
+
+    .text{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(14, 56, 50);
+        margin-top: 16px;
+       text-align: initial;
+       font-weight: 200px;
+    }
+
+    .flex-container{
+        background-color: rgb(255, 248, 248);
+        height: 60px;
+        width: 200%;
+      margin-right: 20%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+
+        .form-input{
+
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        }
+    }
+}
+
+
+
+

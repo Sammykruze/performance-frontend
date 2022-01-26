@@ -1,0 +1,208 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  background: #6700EE;
+}
+
+.nav-container a {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #00F7FF;
+  font-weight: bold;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.social-header {
+  display: none;
+}
+
+.crafted {
+  background-color: #6E00FF;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 110px;
+  width: 200px;
+  font-weight: bold;
+  color: #FF64CB;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.featured {
+  position: relative;
+}
+
+.featured::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  background: #E5D5FA;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.project {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6E00FF;
+  letter-spacing: .2em;
+  font-size: .95em;
+}
+
+.featured-title {
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-top: -.4em;
+  display: block;
+}
+
+.featured-desc {
+  color: #2B2B2B;
+  margin-top: .9em;
+  line-height: 1.3em;
+  font-weight: 500;
+}
+
+.skills {
+  background-color: #FEC4CB;
+}
+
+.skills-container ul li {
+  background: white;
+  padding: 2em;
+  border-radius: 2em;
+  margin-bottom: 1em;
+}
+
+.skills-container ul li .image-one {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.skills-container ul li .image-one.one {
+  width: 50px;
+}
+
+.skills-container ul li .image-one.two {
+  width: 50px;
+}
+
+.skills-container ul li .image-one.thre {
+  width: 50px;
+}
+
+.skill-title {
+  font-weight: bold;
+}
+
+.featured-desc {
+  margin-bottom: 2em;
+}
+
+.portfolio {
+  background: #98a5a5;
+}
+
+.portfolio-container a img {
+  border-radius: 1em;
+  margin-bottom: 23m;
+}
+
+.subtitle {
+  color: blue;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.bright {
+  background-color: #98a5a5;
+  width: 100%;
+  height: 20px;
+}
+
+.bright .text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #0e3832;
+  margin-top: 16px;
+  text-align: initial;
+  font-weight: 200px;
+}
+
+.bright .flex-container {
+  background-color: #fff8f8;
+  height: 60px;
+  width: 200%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 20px;
+}
+
+.bright .flex-container .form-input {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=main.css.map */
