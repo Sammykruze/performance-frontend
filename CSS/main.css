@@ -48,6 +48,12 @@ header ul a {
   padding: 0 1em;
 }
 
+#image{
+  height: 500px;
+  width: 350px;
+}
+
+
 .social-header {
   display: none;
 }
